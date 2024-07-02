@@ -53,6 +53,7 @@ def cari_faktor(bilangan):
 def main():
     bilangan = int(input("Masukkan sebuah bilangan: "))
     faktor = cari_faktor(bilangan)
+    faktor.sort(reverse=True)
     print(f"Faktor dari {bilangan} adalah: {faktor}")
 
 main()
